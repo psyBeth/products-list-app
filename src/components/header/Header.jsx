@@ -1,7 +1,7 @@
 
 
 const Header = ({categories, text}) => {
-  console.log(text);
+  // console.log(text);
   return (
     <div>
       <h1>{text}</h1>

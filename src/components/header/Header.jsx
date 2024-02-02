@@ -1,8 +1,11 @@
 
 
-const Header = () => {
+const Header = ({categories, text}) => {
+  console.log(text);
   return (
-    <h1>Header</h1>
+    <div>
+      <h1>{text}</h1>
+    </div>
   )
 }
 

@@ -1,7 +1,6 @@
 import ProductCard from "./ProductCard";
 
 const ProductList = ({products}) => {
-  console.log(products);
   return (
     <div className="card-container">
       {/* {products.map((product) => (

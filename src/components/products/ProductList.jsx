@@ -1,8 +1,9 @@
 import ProductCard from "./ProductCard";
+import "./Products.scss";
 
 const ProductList = ({products}) => {
   return (
-    <div className="card-container">
+    <div className="products-list">
       {/* {products.map((product) => (
           <div key={product.id}>
             <div>

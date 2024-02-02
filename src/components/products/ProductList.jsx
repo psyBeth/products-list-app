@@ -1,11 +1,10 @@
-
+import ProductCard from "./ProductCard";
 
 const ProductList = ({products}) => {
   console.log(products);
   return (
     <div className="card-container">
-      {
-        products.map((product) => (
+      {/* {products.map((product) => (
           <div key={product.id}>
             <div>
               <h3>{product.price}</h3>
@@ -16,7 +15,10 @@ const ProductList = ({products}) => {
             </div>
           </div>
         ))
-      }
+      } */}
+      {products.map((product) => (
+        <ProductCard key={product.id} {...product} />
+      ))}
     </div>
   )
 }
